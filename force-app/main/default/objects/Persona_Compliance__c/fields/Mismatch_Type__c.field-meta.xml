@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mismatch_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Mismatch Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Profile</fullName>
+                <default>false</default>
+                <label>Profile</label>
+            </value>
+            <value>
+                <fullName>PermissionSet</fullName>
+                <default>false</default>
+                <label>PermissionSet</label>
+            </value>
+            <value>
+                <fullName>Apex Class Permission</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Apex Class Permission</label>
+            </value>
+            <value>
+                <fullName>FLS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>FLS</label>
+            </value>
+            <value>
+                <fullName>OLS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>OLS</label>
+            </value>
+            <value>
+                <fullName>System Permission</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>System Permission</label>
+            </value>
+            <value>
+                <fullName>VF Permission</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VF Permission</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

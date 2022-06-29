@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Batch_Run_Date__c</columns>
+    <columns>IBP_User__c</columns>
+    <columns>Mismatched_User__c</columns>
+    <columns>Mismatch_Type__c</columns>
+    <columns>PermissionSet_Mismatch_Category__c</columns>
+    <columns>Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>
